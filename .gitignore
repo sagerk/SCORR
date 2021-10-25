@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.coverage
+.cache
+.pytest_cache
+.vscode
+scorr/notebooks

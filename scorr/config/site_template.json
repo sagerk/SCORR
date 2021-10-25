@@ -1,0 +1,8 @@
+{
+  "ping_interval_in_seconds": 10,
+  "ranks_salvus": 2,
+  "ranks_scorr": 2,
+  "site": "daint",
+  "wall_time_in_seconds_salvus": 60,
+  "wall_time_in_seconds_scorr": 60
+}

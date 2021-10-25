@@ -1,0 +1,4 @@
+source_input_file = "source_spike.h5"
+[[source]]
+name = "syn_0"
+dataset_name = "/AuxiliaryData/AdjointSources/syn_0"

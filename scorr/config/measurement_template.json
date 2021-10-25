@@ -1,0 +1,14 @@
+{
+  "type": "waveform_differences",
+  "component_recording": 2,
+  "pick_window": true,
+  "window_halfwidth_in_sec": 200.0,
+  "number_of_stacked_windows_min": 0,
+  "min_period_in_s": 100.0,
+  "pick_manual": false,
+  "scale": 1e10,
+  "snr": null,
+  "correlation_coeff": 0.6,
+  "surface_wave_velocity_in_mps": 4000,
+  "station_list": null
+}

@@ -1,0 +1,51 @@
+{
+  "inversion": "source",
+  "hessian": "dm",
+  "noise_source": {
+    "component_dist_source": 0,
+    "component_wavefield": 0,
+    "filename": {
+      "__class__": "Path",
+      "__value__": "dummy.h5"
+    },
+    "filter_spec": null,
+    "shortcut": false,
+    "taper": false,
+    "taper_length_in_percent": 10
+  },
+  "simulation": {
+    "absorbing": {
+        "boundaries": null,
+        "axis-aligned": false
+    },
+    "adjoint": false,
+    "anisotropy": false,
+    "attenuation": false,
+    "dt": 0.01,
+    "green_amplitude": 1.0e10,
+    "green_component": 0,
+    "green_starttime": 0.0,
+    "corr_max_lag": 1.0,
+    "corr_max_lag_causal": null,
+    "kernel-fields": null,
+    "mesh": {
+      "__class__": "Path",
+      "__value__": "dummy.e"
+    },
+    "precision": "single",
+    "recording": "u_ELASTIC",
+    "reference_stations": {
+      "__class__": "Path",
+      "__value__": "dummy.json"
+    },
+    "sampling_rate_volume": 1,
+    "sampling_rate_boundary": 1,
+    "sideset": "x0",
+    "spherical": false
+  },
+  "verbose": true,
+  "working_dir_local": {
+    "__class__": "Path",
+    "__value__": "dummy"
+  }
+}

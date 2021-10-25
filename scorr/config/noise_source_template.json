@@ -1,0 +1,31 @@
+{
+  "gaussian": {
+    "magnitude": [
+      5.0
+    ],
+    "width_x": [
+      10000.0
+    ],
+    "width_y": [
+      10000.0
+    ],
+    "x": [
+      30000.0
+    ],
+    "y": [
+      30000.0
+    ]
+  },
+  "homog_magnitude": 1.0e10,
+  "spectrum": {
+    "bandwidth": 0.07,
+    "f_peak": 0.08,
+    "strength": 1.0
+  },
+  "type": "homogeneous",
+  "filename": {
+    "__class__": "Path",
+    "__value__": "dummy.h5"
+  },
+  "ocean_only": false
+}

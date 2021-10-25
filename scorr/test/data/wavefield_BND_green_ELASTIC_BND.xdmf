@@ -1,0 +1,4158 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+	<Domain>
+			<Topology TopologyType="Quadrilateral" NumberOfElements="64">
+			<DataItem Format="HDF" DataType="Int" Dimensions="64 4">
+					wavefield_BND_green.h5:/ELASTIC_BND/connectivity
+				</DataItem>
+				</Topology>
+			<Geometry GeometryType="XYZ">
+			<DataItem Format="HDF" Dimensions="4 25 3">
+				wavefield_BND_green.h5:/ELASTIC_BND/coordinates</DataItem>
+			</Geometry>
+	<Grid Name="Salvus Wavefield Data" GridType="Collection" CollectionType="Temporal">
+		<Grid Name="Wavefield_0.000000 ">
+		<Time Value="0" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					0 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					0 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					0 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.010000 ">
+		<Time Value="0.01" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					1 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					1 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					1 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.020000 ">
+		<Time Value="0.02" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					2 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					2 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					2 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.030000 ">
+		<Time Value="0.03" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					3 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					3 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					3 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.040000 ">
+		<Time Value="0.04" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					4 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					4 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					4 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.050000 ">
+		<Time Value="0.05" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					5 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					5 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					5 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.060000 ">
+		<Time Value="0.06" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					6 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					6 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					6 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.070000 ">
+		<Time Value="0.07" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					7 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					7 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					7 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.080000 ">
+		<Time Value="0.08" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					8 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					8 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					8 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.090000 ">
+		<Time Value="0.09" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					9 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					9 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					9 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.100000 ">
+		<Time Value="0.1" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					10 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					10 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					10 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.110000 ">
+		<Time Value="0.11" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					11 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					11 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					11 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.120000 ">
+		<Time Value="0.12" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					12 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					12 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					12 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.130000 ">
+		<Time Value="0.13" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					13 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					13 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					13 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.140000 ">
+		<Time Value="0.14" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					14 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					14 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					14 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.150000 ">
+		<Time Value="0.15" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					15 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					15 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					15 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.160000 ">
+		<Time Value="0.16" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					16 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					16 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					16 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.170000 ">
+		<Time Value="0.17" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					17 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					17 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					17 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.180000 ">
+		<Time Value="0.18" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					18 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					18 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					18 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.190000 ">
+		<Time Value="0.19" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					19 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					19 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					19 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.200000 ">
+		<Time Value="0.2" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					20 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					20 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					20 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.210000 ">
+		<Time Value="0.21" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					21 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					21 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					21 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.220000 ">
+		<Time Value="0.22" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					22 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					22 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					22 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.230000 ">
+		<Time Value="0.23" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					23 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					23 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					23 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.240000 ">
+		<Time Value="0.24" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					24 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					24 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					24 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.250000 ">
+		<Time Value="0.25" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					25 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					25 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					25 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.260000 ">
+		<Time Value="0.26" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					26 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					26 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					26 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.270000 ">
+		<Time Value="0.27" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					27 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					27 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					27 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.280000 ">
+		<Time Value="0.28" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					28 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					28 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					28 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.290000 ">
+		<Time Value="0.29" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					29 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					29 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					29 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.300000 ">
+		<Time Value="0.3" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					30 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					30 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					30 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.310000 ">
+		<Time Value="0.31" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					31 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					31 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					31 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.320000 ">
+		<Time Value="0.32" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					32 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					32 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					32 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.330000 ">
+		<Time Value="0.33" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					33 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					33 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					33 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.340000 ">
+		<Time Value="0.34" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					34 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					34 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					34 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.350000 ">
+		<Time Value="0.35" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					35 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					35 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					35 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.360000 ">
+		<Time Value="0.36" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					36 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					36 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					36 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.370000 ">
+		<Time Value="0.37" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					37 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					37 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					37 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.380000 ">
+		<Time Value="0.38" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					38 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					38 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					38 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.390000 ">
+		<Time Value="0.39" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					39 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					39 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					39 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.400000 ">
+		<Time Value="0.4" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					40 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					40 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					40 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.410000 ">
+		<Time Value="0.41" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					41 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					41 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					41 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.420000 ">
+		<Time Value="0.42" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					42 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					42 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					42 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.430000 ">
+		<Time Value="0.43" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					43 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					43 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					43 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.440000 ">
+		<Time Value="0.44" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					44 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					44 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					44 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.450000 ">
+		<Time Value="0.45" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					45 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					45 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					45 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.460000 ">
+		<Time Value="0.46" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					46 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					46 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					46 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.470000 ">
+		<Time Value="0.47" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					47 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					47 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					47 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.480000 ">
+		<Time Value="0.48" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					48 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					48 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					48 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.490000 ">
+		<Time Value="0.49" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					49 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					49 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					49 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.500000 ">
+		<Time Value="0.5" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					50 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					50 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					50 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.510000 ">
+		<Time Value="0.51" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					51 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					51 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					51 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.520000 ">
+		<Time Value="0.52" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					52 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					52 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					52 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.530000 ">
+		<Time Value="0.53" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					53 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					53 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					53 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.540000 ">
+		<Time Value="0.54" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					54 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					54 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					54 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.550000 ">
+		<Time Value="0.55" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					55 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					55 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					55 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.560000 ">
+		<Time Value="0.56" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					56 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					56 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					56 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.570000 ">
+		<Time Value="0.57" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					57 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					57 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					57 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.580000 ">
+		<Time Value="0.58" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					58 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					58 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					58 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.590000 ">
+		<Time Value="0.59" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					59 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					59 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					59 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.600000 ">
+		<Time Value="0.6" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					60 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					60 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					60 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.610000 ">
+		<Time Value="0.61" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					61 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					61 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					61 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.620000 ">
+		<Time Value="0.62" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					62 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					62 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					62 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.630000 ">
+		<Time Value="0.63" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					63 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					63 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					63 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.640000 ">
+		<Time Value="0.64" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					64 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					64 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					64 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.650000 ">
+		<Time Value="0.65" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					65 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					65 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					65 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.660000 ">
+		<Time Value="0.66" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					66 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					66 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					66 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.670000 ">
+		<Time Value="0.67" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					67 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					67 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					67 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.680000 ">
+		<Time Value="0.68" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					68 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					68 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					68 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.690000 ">
+		<Time Value="0.69" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					69 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					69 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					69 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.700000 ">
+		<Time Value="0.7" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					70 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					70 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					70 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.710000 ">
+		<Time Value="0.71" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					71 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					71 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					71 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.720000 ">
+		<Time Value="0.72" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					72 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					72 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					72 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.730000 ">
+		<Time Value="0.73" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					73 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					73 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					73 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.740000 ">
+		<Time Value="0.74" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					74 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					74 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					74 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.750000 ">
+		<Time Value="0.75" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					75 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					75 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					75 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.760000 ">
+		<Time Value="0.76" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					76 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					76 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					76 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.770000 ">
+		<Time Value="0.77" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					77 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					77 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					77 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.780000 ">
+		<Time Value="0.78" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					78 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					78 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					78 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.790000 ">
+		<Time Value="0.79" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					79 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					79 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					79 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.800000 ">
+		<Time Value="0.8" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					80 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					80 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					80 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.810000 ">
+		<Time Value="0.81" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					81 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					81 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					81 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.820000 ">
+		<Time Value="0.82" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					82 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					82 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					82 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.830000 ">
+		<Time Value="0.83" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					83 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					83 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					83 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.840000 ">
+		<Time Value="0.84" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					84 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					84 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					84 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.850000 ">
+		<Time Value="0.85" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					85 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					85 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					85 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.860000 ">
+		<Time Value="0.86" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					86 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					86 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					86 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.870000 ">
+		<Time Value="0.87" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					87 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					87 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					87 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.880000 ">
+		<Time Value="0.88" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					88 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					88 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					88 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.890000 ">
+		<Time Value="0.89" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					89 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					89 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					89 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.900000 ">
+		<Time Value="0.9" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					90 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					90 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					90 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.910000 ">
+		<Time Value="0.91" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					91 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					91 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					91 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.920000 ">
+		<Time Value="0.92" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					92 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					92 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					92 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.930000 ">
+		<Time Value="0.93" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					93 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					93 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					93 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.940000 ">
+		<Time Value="0.94" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					94 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					94 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					94 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.950000 ">
+		<Time Value="0.95" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					95 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					95 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					95 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.960000 ">
+		<Time Value="0.96" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					96 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					96 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					96 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.970000 ">
+		<Time Value="0.97" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					97 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					97 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					97 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.980000 ">
+		<Time Value="0.98" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					98 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					98 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					98 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_0.990000 ">
+		<Time Value="0.99" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					99 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					99 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					99 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+		<Grid Name="Wavefield_1.000000 ">
+		<Time Value="1" />
+		<Topology Reference="/Xdmf/Domain/Topology[1]"/>
+		<Geometry Reference="/Xdmf/Domain/Geometry[1]"/>
+			<Attribute Name="u_ELASTIC_CMP_X" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					100 0 0 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Y" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					100 0 1 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+			<Attribute Name="u_ELASTIC_CMP_Z" AttributeType="Scalar" Center="Node">
+			<DataItem ItemType="HyperSlab" Dimensions="1 4 1 25 " Type="HyperSlab">
+				<DataItem Dimensions="3 4" Format="XML">
+					100 0 2 0
+					1 1 1 1
+					1 4 1 25
+				</DataItem>
+				<DataItem Name="Points" Dimensions="101 4 3 25" Format="HDF">
+					wavefield_BND_green.h5:/ELASTIC_BND/data
+				</DataItem>
+			</DataItem>
+			</Attribute>
+		</Grid>
+	</Grid>
+	</Domain>
+</Xdmf>

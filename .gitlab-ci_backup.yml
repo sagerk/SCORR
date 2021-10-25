@@ -1,0 +1,26 @@
+image: continuumio/miniconda3:latest
+
+before_script:
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - echo "${SSH_PRIVATE_KEY}" | ssh-add -
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  - conda config --add channels conda-forge
+  - conda config --add channels spectralDNS
+  - conda update --yes conda
+  - conda create --yes -n condaenv python=3.6
+  - conda install --yes -n condaenv pip
+  - source activate condaenv
+  - cd .. && rm -rf salvus_flow
+  - git clone git@gitlab.com:sagerk/salvus_flow.git && cd salvus_flow
+  - pip install -v -e .
+  - cd .. && cd SCORR
+  - cp scorr/config/salvus-flow.toml $HOME/.salvus-flow.toml
+  - conda install --file scorr/config/conda_packages_linux.txt
+  - pip install -v -e .
+
+tests:
+  stage: test
+  script:
+    - py.test --cov=scorr scorr/test
