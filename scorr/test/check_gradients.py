@@ -124,7 +124,7 @@ scorr_extensions.save_configuration(
 # site = scorr_extensions.load_configuration(DIR_PROJECT / "config" / "site.json", type="site")
 
 # change site configuration
-site = {"site": "swp",
+site = {"site": "dead",
         "ranks_salvus": 2,
         "ranks_scorr": 2,
         "ping_interval_in_seconds": 1,

@@ -92,7 +92,7 @@ scorr_extensions.save_configuration(filename=config["working_dir_local"] / "conf
                                     config=config, type="scorr", verbose=config["verbose"])
 
 # create site config
-site = {"site": "local",
+site = {"site": "dead",
         "ranks_salvus": 2,
         "ranks_scorr": 2,
         "ping_interval_in_seconds": 1,

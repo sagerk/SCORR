@@ -54,19 +54,19 @@ def sum_kernels(config, id, type="gradient", identifier_prefix="", ref_station_l
     i_structure = 0
 
     # sum source kernels
-    # if config["inversion"] == "source" or config["inversion"] == "joint":
-    #     source_kernel_sum = SourceKernel()
+    if config["inversion"] == "source" or config["inversion"] == "joint":
+        source_kernel_sum = SourceKernel()
 
-    #     for identifier in ref_station_list:
-    #         for file_kernel in (folder_kernel / (identifier_prefix + identifier + "_" + str(id))).glob("source*/*.h5"):
-    #             print(file_kernel)
-    #             source_kernel_sum += SourceKernel.init_with_kernel_file(filename_kernel_h5=file_kernel,
-    #                                                                     verbose=config["verbose"])
-    #             i_source += 1
+        for identifier in ref_station_list:
+            for file_kernel in (folder_kernel / (identifier_prefix + identifier + "_" + str(id))).glob("source*/*.h5"):
+                print(file_kernel)
+                source_kernel_sum += SourceKernel.init_with_kernel_file(filename_kernel_h5=file_kernel,
+                                                                        verbose=config["verbose"])
+                i_source += 1
 
-    #     source_kernel_sum.write_kernel_to_file(
-    #         filename_kernel_h5=folder_kernel / ("source_kernel_" + str(id) + ".h5"),
-    #         precision=config["simulation"]["precision"], verbose=config["verbose"])
+        source_kernel_sum.write_kernel_to_file(
+            filename_kernel_h5=folder_kernel / ("source_kernel_" + str(id) + ".h5"),
+            precision=config["simulation"]["precision"], verbose=config["verbose"])
 
     # sum structure kernels
     if config["inversion"] == "structure" or config["inversion"] == "joint" or config["inversion"] == "source":

@@ -104,7 +104,7 @@ class DistributedSource():
                     scale_factor = self.noise_source.get_value_of_distribution_at_gll(id_element=id_element_local,
                                                                                       id_gll=id_gll)
                     self.distributed_source[:, id_element_local, id_component_dist_source, id_gll] = \
-                        scale_factor * wavefield * taper_body
+                        scale_factor * wavefield # * taper_body
 
                 else:
                     stf = self.noise_source.compute_stf_at_gll(

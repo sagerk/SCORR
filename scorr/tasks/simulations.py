@@ -142,7 +142,7 @@ def compute_distributed_source(site, config, job_id_wavefield):
         command = f"/Users/korbinian/Applications/miniconda3/envs/scorr2/bin/scorr "
     elif "wyoming" in site["site"]:
         command = f"/home/korbinian/miniconda3/envs/scorr/bin/scorr "
-    elif "swp" in site["site"] or "brown" in site["site"]:
+    elif "dead" in site["site"] or "brown" in site["site"]:
         command = f"/home/ksager/miniconda3/envs/scorr/bin/scorr "
     elif "daint" in site["site"]:
         command = f"/users/sagerk/miniconda3/envs/scorr/bin/scorr "
@@ -268,7 +268,7 @@ def build_source_kernel(site, config, job_id_green, job_id_adjoint):
         command = f"/Users/korbinian/Applications/miniconda3/envs/scorr2/bin/scorr "
     elif "wyoming" in site["site"]:
         command = f"/home/korbinian/miniconda3/envs/scorr/bin/scorr "
-    elif "swp" in site["site"] or "brown" in site["site"]:
+    elif "dead" in site["site"] or "brown" in site["site"]:
         command = f"/home/ksager/miniconda3/envs/scorr/bin/scorr "
     elif "daint" in site["site"]:
         command = f"/users/sagerk/miniconda3/envs/scorr/bin/scorr "
@@ -312,7 +312,7 @@ def wavefield_diff(site, config, job_id_ref, job_id_pert, boundary=True, minus=T
         command = f"/Users/korbinian/Applications/miniconda3/envs/scorr2/bin/scorr "
     elif "wyoming" in site["site"]:
         command = f"/home/korbinian/miniconda3/envs/scorr/bin/scorr "
-    elif "swp" in site["site"] or "brown" in site["site"]:
+    elif "dead" in site["site"] or "brown" in site["site"]:
         command = f"/home/ksager/miniconda3/envs/scorr/bin/scorr "
     elif "daint" in site["site"]:
         command = f"/users/sagerk/miniconda3/envs/scorr/bin/scorr "
